@@ -15,3 +15,6 @@ $ ln -s <path of the repo>/<extension>
 # For example :
 $ ln -s /mnt/c/documents/Vs-extensions/mysnippets/
 ```
+
+## to create one :
+go to `https://code.visualstudio.com/api/get-started/your-first-extension` and follow the tuto.
