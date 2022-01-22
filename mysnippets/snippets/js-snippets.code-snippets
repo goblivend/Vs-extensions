@@ -1,0 +1,11 @@
+{
+    "Basic class": {
+        "prefix": "bclass",
+        "body": [
+            "public class test {",
+            "\t",
+            "}"
+        ],
+        "description": "Basic class creation"
+    }
+}

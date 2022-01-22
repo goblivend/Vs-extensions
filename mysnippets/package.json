@@ -1,0 +1,25 @@
+{
+    "name": "js-snipets",
+    "displayName": "JS snipets",
+    "description": "Basic JS snipets",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "icon": "temp-icon.png",
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/js-snippets.code-snippets"
+            },
+            {
+                "language": "java",
+                "path": "./snippets/java-snippets.code-snippets"
+            }
+        ]
+    }
+}
