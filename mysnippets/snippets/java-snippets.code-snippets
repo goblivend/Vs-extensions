@@ -1,0 +1,46 @@
+{
+    "splitter": {
+        "prefix": "/split",
+        "body": [
+            "// ##################################",
+            ""
+        ],
+        "description": "Creates a split line"
+    },
+    "divider": {
+        "prefix": "/part",
+        "description": "Divides the code",
+        "body": [
+            "// >>>>>>>> Begin ${1:} >>>>>>>>",
+            "",
+            "$0",
+            "",
+            "// <<<<<<<<< End ${1:} <<<<<<<<<"
+        ]
+    },
+    "class": {
+        "prefix": "/class",
+        "description": "Create class",
+        "body": [
+            "// >>>>>>>> Begin imports >>>>>>>>",
+            "",
+            "// <<<<<<<<< End imports <<<<<<<<<",
+            "",
+            "${1|public,private|} class $TM_FILENAME_BASE {",
+            "\t$0",
+            "}"
+        ]
+    },
+    "Another": {
+        "prefix": "snippet show",
+        "description": "Describe your library here",
+        "body": [
+            "end completion $1",
+            "with default value${2:default}",
+            "the file name : $TM_FILENAME",
+            "without extention : $TM_FILENAME_BASE",
+            "a list of possibilities : ${3|first,second,third|}",
+            "a test : ${TM_FILENAME/(.*)\\..+$/$1/}"
+        ]
+    }
+}
