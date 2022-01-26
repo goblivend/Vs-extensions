@@ -1,0 +1,7 @@
+{
+    "Finnish list": {
+        "prefix": "-",
+        "body": " - $1 : `$2`\n$0",
+        "description": "word traduction list",
+    }
+}
