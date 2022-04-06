@@ -1,11 +1,34 @@
 {
-    "Basic class": {
-        "prefix": "bclass",
+    "splitter": {
+        "prefix": "split",
         "body": [
-            "public class test {",
-            "\t",
-            "}"
+            "// ##################################",
+            ""
         ],
-        "description": "Basic class creation"
-    }
+        "description": "Creates a split line"
+    },
+    "divider": {
+        "prefix": "part",
+        "description": "Divides the code",
+        "body": [
+            "// >>>>>>>> Begin ${1:} >>>>>>>>",
+            "",
+            "$0",
+            "",
+            "// <<<<<<<<< End ${1:} <<<<<<<<<"
+        ]
+    },
+    "class": {
+        "prefix": "class",
+        "description": "Create class",
+        "body": [
+            "// >>>>>>>> Begin imports >>>>>>>>",
+            "",
+            "// <<<<<<<<< End imports <<<<<<<<<",
+            "",
+            "class $TM_FILENAME_BASE {",
+            "\t$0",
+            "}"
+        ]
+    },
 }

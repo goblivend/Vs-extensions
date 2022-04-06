@@ -1,6 +1,6 @@
 {
     "splitter": {
-        "prefix": "/split",
+        "prefix": "split",
         "body": [
             "// ##################################",
             ""
@@ -8,7 +8,7 @@
         "description": "Creates a split line"
     },
     "divider": {
-        "prefix": "/part",
+        "prefix": "part",
         "description": "Divides the code",
         "body": [
             "// >>>>>>>> Begin ${1:} >>>>>>>>",
